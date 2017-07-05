@@ -1,0 +1,31 @@
+{
+  "name": "rollup-plugin-diamond",
+  "version": "0.0.1",
+  "description": "Plugin to run diamond compiler as part of rollup build",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martypdx/rollup-plugin-diamond.git"
+  },
+  "keywords": [
+    "diamond",
+    "rollup",
+    "rollup-plugin"
+  ],
+  "author": "Marty Nelson <marty@martypdx.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martypdx/rollup-plugin-diamond/issues"
+  },
+  "homepage": "https://github.com/martypdx/rollup-plugin-diamond#readme",
+  "devDependencies": {
+    "eslint": "^4.1.1"
+  },
+  "dependencies": {
+    "diamond-compiler": "0.0.7",
+    "rollup-pluginutils": "^2.0.1"
+  }
+}
