@@ -4,7 +4,7 @@
   "description": "Plugin to run diamond compiler as part of rollup build",
   "main": "index.js",
   "scripts": {
-    "update": "npm un diamond-compiler -S && npm i diamond-compiler -S"
+    "update": "npm un diamond-compiler -S && npm i diamond-compiler -S && git commit -am 'update' && npm version patch"
   },
   "repository": {
     "type": "git",
