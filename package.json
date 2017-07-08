@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-diamond",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Plugin to run diamond compiler as part of rollup build",
   "main": "index.js",
   "scripts": {
