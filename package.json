@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/martypdx/rollup-plugin-diamond#readme",
   "devDependencies": {
-    "eslint": "^4.1.1"
+    "eslint": "^4.2.0"
   },
   "dependencies": {
-    "diamond-compiler": "0.0.16",
+    "diamond-compiler": "0.0.17",
     "rollup-pluginutils": "^2.0.1"
   }
 }
