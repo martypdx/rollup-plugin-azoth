@@ -1,4 +1,4 @@
-const compile = require('diamond-compiler');
+const compile = require('diamond-compiler').default;
 const createFilter = require('rollup-pluginutils');
 
 const node_modules = /node_modules/;
