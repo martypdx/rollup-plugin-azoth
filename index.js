@@ -1,6 +1,6 @@
-const compile = require('diamond-compiler').default;
+const compile = require('diamond-compiler');
 const createFilter = require('rollup-pluginutils');
-
+console.log(compile)
 const node_modules = /node_modules/;
 const notInNodeModules = id => !node_modules.test(id);
 
