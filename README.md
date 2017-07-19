@@ -1,2 +1,2 @@
-# rollup-plugin-diamond
-Plugin to run diamond compiler as part of rollup build
+# rollup-plugin-azoth
+Plugin to run azoth compiler as part of rollup build

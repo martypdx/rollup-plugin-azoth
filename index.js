@@ -1,4 +1,4 @@
-const compile = require('diamond-compiler');
+const compile = require('azoth-compiler');
 const createFilter = require('rollup-pluginutils');
 
 const node_modules = /node_modules/;
@@ -14,6 +14,6 @@ module.exports = function(options = {}){
             if (!filter(id)) return null;
             return compile(code);
         },
-        name: 'diamond-compiler'
+        name: 'azoth-compiler'
     };
 };

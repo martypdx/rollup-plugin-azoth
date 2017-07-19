@@ -1,31 +1,31 @@
 {
-  "name": "rollup-plugin-diamond",
+  "name": "rollup-plugin-azoth",
   "version": "0.0.20",
-  "description": "Plugin to run diamond compiler as part of rollup build",
+  "description": "Plugin to run azoth compiler as part of rollup build",
   "main": "index.js",
   "scripts": {
-    "update": "npm un diamond-compiler -S && npm i diamond-compiler -S && git commit -am 'update' && npm version patch"
+    "update": "npm un azoth-compiler -S && npm i azoth-compiler -S && git commit -am 'update' && npm version patch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/martypdx/rollup-plugin-diamond.git"
+    "url": "git+https://github.com/martypdx/rollup-plugin-azoth.git"
   },
   "keywords": [
-    "diamond",
+    "azoth",
     "rollup",
     "rollup-plugin"
   ],
   "author": "Marty Nelson <marty@martypdx.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/martypdx/rollup-plugin-diamond/issues"
+    "url": "https://github.com/martypdx/rollup-plugin-azoth/issues"
   },
-  "homepage": "https://github.com/martypdx/rollup-plugin-diamond#readme",
+  "homepage": "https://github.com/martypdx/rollup-plugin-azoth#readme",
   "devDependencies": {
     "eslint": "^4.2.0"
   },
   "dependencies": {
-    "diamond-compiler": "0.0.20",
+    "azoth-compiler": "0.0.20",
     "rollup-pluginutils": "^2.0.1"
   }
 }
