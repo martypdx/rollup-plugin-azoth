@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-azoth",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "Plugin to run azoth compiler as part of rollup build",
   "main": "index.js",
   "scripts": {
