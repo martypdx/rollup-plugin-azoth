@@ -25,7 +25,7 @@
     "eslint": "^4.2.0"
   },
   "dependencies": {
-    "azoth-compiler": "0.0.23",
+    "azoth-compiler": "0.0.24",
     "rollup-pluginutils": "^2.0.1"
   }
 }
