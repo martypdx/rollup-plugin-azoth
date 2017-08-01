@@ -16,7 +16,7 @@ module.exports = function(options = {}){
                 return compile(code);
             }
             catch(err) {
-                this.error(err);
+                this.error(`A problem happened when compiling ${id}. Error was: ${err.message}`);
             }
         },
         name: 'azoth-compiler'

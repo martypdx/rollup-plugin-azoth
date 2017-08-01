@@ -1,4 +1,4 @@
-/* eslint indent: off */
+/* eslint indent: off, no-undef: off */
 (function (azoth,rxjsEs) {
 'use strict';
 
