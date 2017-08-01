@@ -1,4 +1,3 @@
-// import resolve from 'rollup-plugin-node-resolve';
 import common from 'rollup-plugin-commonjs';
 const azoth = require('../index.js');
 
