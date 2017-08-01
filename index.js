@@ -12,7 +12,12 @@ module.exports = function(options = {}){
     return {
         transform(code, id){
             if (!filter(id)) return null;
-            return compile(code);
+            try {
+                return compile(code);
+            }
+            catch(err) {
+                this.error(err);
+            }
         },
         name: 'azoth-compiler'
     };
