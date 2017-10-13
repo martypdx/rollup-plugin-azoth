@@ -27,7 +27,7 @@
     "rollup-plugin-commonjs": "^8.0.2"
   },
   "dependencies": {
-    "azoth-compiler": "0.0.35",
+    "azoth-compiler": "0.0.36",
     "rollup-pluginutils": "^2.0.1"
   }
 }
