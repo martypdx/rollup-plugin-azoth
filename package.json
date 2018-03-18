@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "rollup -c test/rollup.config.js && cmp -b test/azoth-compiled.js test/azoth-compiled.snapshot.js",
+    "posttest": "### tests complete",
+    "update-snapshot": "cp test/azoth-compiled.js test/azoth-compiled.snapshot.js",
+    "postupdate-snapshot": "### snapshot updated",
     "update-compiler": "npm un azoth-compiler -S && npm i azoth-compiler -S && git commit -am 'update compiler' && npm version patch"
   },
   "repository": {

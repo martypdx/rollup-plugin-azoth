@@ -1,7 +1,7 @@
 import { _, $ } from 'azoth';
-import { BehaviorSubject } from 'rxjs-es';
+import { Subject } from 'rxjs-es';
 
-const name = new BehaviorSubject('foo');
+const name = new Subject('foo');
 
 const template = (name=$) => _`<span>Hello *${name}</span>`;
 
