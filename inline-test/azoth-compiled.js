@@ -2,10 +2,10 @@
 (function (azoth,rxjsEs) {
 	'use strict';
 
-	const __renderb3a4924d87 = azoth.__getRenderer('b3a4924d87');
+	const __render0 = azoth.__makeRenderer(`<span data-bind>Hello <text-node></text-node></span>`);
 	const name = new rxjsEs.Subject('foo');
 	const template = name => {
-	  const {__fragment, __nodes} = __renderb3a4924d87();
+	  const {__fragment, __nodes} = __render0();
 	  const __child0 = __nodes[0].childNodes[1];
 	  const __sub0 = name.subscribe(azoth.__textBinder(__child0));
 	  __fragment.unsubscribe = () => {

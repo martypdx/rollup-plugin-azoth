@@ -6,11 +6,9 @@
   "scripts": {
     "test": "npm run inline-test && npm run bundled-test",
     "inline-test": "rollup -c inline-test/rollup.config.js && cmp -b inline-test/azoth-compiled.js inline-test/azoth-compiled.snapshot.js",
-    "bundled-test": "node bundled-test/run-rollup.js && cmp -b bundled-test/azoth-compiled.js bundled-test/azoth-compiled.snapshot.js  && cmp -b bundled-test/templates.html bundled-test/templates.snapshot.html",
-    "posttest": "### tests complete",
+    "bundled-test": "rollup -c bundled-test/rollup.config.js && cmp -b bundled-test/azoth-compiled.js bundled-test/azoth-compiled.snapshot.js  && cmp -b bundled-test/templates.html bundled-test/templates.snapshot.html",
     "update-inline-snapshot": "cp inline-test/azoth-compiled.js inline-test/azoth-compiled.snapshot.js",
     "update-bundled-snapshot": "cp bundled-test/azoth-compiled.js bundled-test/azoth-compiled.snapshot.js && cp bundled-test/templates.html bundled-test/templates.snapshot.html",
-    "postupdate-snapshot": "### snapshot updated",
     "update-compiler": "npm un azoth-compiler -S && npm i azoth-compiler -S && git commit -am 'update compiler' && npm version patch"
   },
   "repository": {

@@ -2,17 +2,20 @@ import common from 'rollup-plugin-commonjs';
 const azoth = require('../index.js');
 
 export default {
-    entry: 'test/azoth-test.js',
-    format: 'iife',
+    input: `${__dirname}/azoth-test.js`,
     plugins: [
         common(),
         azoth()
     ],
-    banner: '/* eslint indent: off, no-undef: off */',
-    external: [ 'azoth', 'rxjs-es' ],
-    globals: {
-        azoth: 'azoth',
-        'rxjs-es': 'rxjs'
+    output: {
+        banner: '/* eslint indent: off, no-undef: off */',
+        format: 'iife',
+        globals: {
+            azoth: 'azoth',
+            'rxjs-es': 'rxjs'
+        },
+        file: `${__dirname}/azoth-compiled.js`
+
     },
-    dest: 'test/azoth-compiled.js'
+    external: [ 'azoth', 'rxjs-es' ],
 }; 
