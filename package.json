@@ -27,12 +27,12 @@
   },
   "homepage": "https://github.com/martypdx/rollup-plugin-azoth#readme",
   "devDependencies": {
-    "eslint": "^4.2.0",
-    "rollup-plugin-commonjs": "^8.0.2"
+    "eslint": "^5.9.0",
+    "rollup-plugin-commonjs": "^9.2.0"
   },
   "dependencies": {
     "azoth-compiler": "^0.1.1",
-    "rollup": "^0.57.1",
-    "rollup-pluginutils": "^2.0.1"
+    "rollup": "^0.67.3",
+    "rollup-pluginutils": "^2.3.3"
   }
 }

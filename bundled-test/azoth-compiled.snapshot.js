@@ -1,5 +1,5 @@
 /* eslint indent: off, no-undef: off */
-(function (azoth,rxjsEs) {
+(function (rxjsEs,azoth) {
     'use strict';
 
     const __renderb3a4924d87 = azoth.__getRenderer('b3a4924d87');
@@ -45,4 +45,4 @@
     const fragment = template(name);
     document.body.appendChild(fragment);
 
-}(azoth,rxjs));
+}(rxjs,azoth));
