@@ -26,8 +26,8 @@ module.exports = function(options = {}){
                 this.error(`A problem happened when compiling ${id}. Error was: ${err.message}`);
             }
         },
-        onwrite() {
-            if(!compileOptions || !options.onhtml) return;
+        generateBundle(_outputOptions, _bundle, isWrite) {
+            if(!isWrite || !compileOptions || !options.onhtml) return;
             options.onhtml(compileOptions.htmlRenderer.map);
         },
         name: 'azoth-compiler'
